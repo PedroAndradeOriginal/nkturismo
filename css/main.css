@@ -80,7 +80,7 @@ header nav {
 .nav-link::after {
     position: absolute;
     top: 55px;
-    right: 0px;
+    right: 10px;
     content: "";
     height: 2px;
     width: 100%;
