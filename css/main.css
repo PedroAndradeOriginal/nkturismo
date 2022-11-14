@@ -203,7 +203,8 @@ header nav {
 }
 
 .middleImg {
-    margin-left: 113px;
+    position: relative;
+    left: 18%;
     display: flex;
     justify-content: right;
 }
