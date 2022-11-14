@@ -83,7 +83,7 @@ header nav {
     right: 10px;
     content: "";
     height: 2px;
-    width: 100%;
+    width: 80%;
     background-color: #EABD1B;
     transform: scaleX(0);
     transform-origin: right;
