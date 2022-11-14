@@ -186,7 +186,29 @@ header nav {
     transform: rotate(-45deg);
 }
 
-/* ========================= foteer =========================== */
+/* ===================== Meio da página ======================= */
+
+.middleBanner {
+    display: flex;
+    justify-content: center;
+}
+
+.middleTxt {
+    color: #003061;
+    width: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: justify;
+}
+
+.middleImg {
+    margin-left: 113px;
+    display: flex;
+    justify-content: right;
+}
+
+/* ========================= footer =========================== */
 
 .rodape {
     width: 100%;
