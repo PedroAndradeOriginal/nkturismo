@@ -19,6 +19,61 @@
     box-sizing: border-box;
 }
 
+/* ========================= whatsapp botão =========================== */
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -webkit-filter: brightness(100%);
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        -webkit-filter: brightness(120%);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+
+    100% {
+        transform: scale(1.1);
+        filter: brightness(120%);
+    }
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 2px #888;
+    z-index: 1000;
+    animation: pulse 0.9s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+.whatsapp-link:hover {
+    transform: scale(1.2);
+    animation: none;
+}
+
+.whatsapp-link img {
+    height: 40px;
+}
+
 /* ========================= Cabeçalho =========================== */
 
 header {
