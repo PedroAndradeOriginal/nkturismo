@@ -186,27 +186,34 @@ header nav {
     transform: rotate(-45deg);
 }
 
-/* ===================== Meio da página ======================= */
+/* ===================== Banners ======================= */
 
 .middleBanner {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
 .middleTxt {
-    color: #003061;
-    width: 522px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     text-align: justify;
+    margin: 50px;
+}
+
+.middleTxt h1 {
+    color: #003061;
+    font-family:'Russo One', sans-serif;
+}
+
+.middleTxt p {
+    color: #000000;
+    font-family:'Oswald', sans-serif;
 }
 
 .middleImg {
-    position: relative;
-    left: 18%;
-    display: flex;
-    justify-content: right;
+    width: 782px;
+    max-width: 100%;
 }
 
 /* ========================= footer =========================== */
