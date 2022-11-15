@@ -211,28 +211,47 @@ header nav {
 
 
 
-/* ===================== Meio da página ======================= */
+/* ===================== Banners ======================= */
 
 
 .middleBanner {
+    margin-top: 92px;
+    height: 507px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .middleTxt {
-    color: #003061;
-    width: 522px;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    text-align: justify;
+    margin: 50px;
+}
+
+.div-vazia {
+    width: 60px;
+    background-color: #003061;
+}
+
+.middleTxt h1 {
+    font-size: 36pt;
+    color: #003061;
+    font-family: 'Russo One', sans-serif;
+}
+
+.middleTxt p {
+    font-size: 24pt;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
 }
 
 .middleImg {
-    position: relative;
-    left: 18%;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+    width: 782px;
 }
 
 /* ========================= footer =========================== */
