@@ -273,6 +273,65 @@ header nav {
     justify-content: right;
 }
 
+/* ========================= section3 =========================== */
+.sec3 {
+    width: 100%;
+    height: 608px; 
+    background-color: #003061;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 3px solid #25d366;    
+}
+
+.in-sec3 {
+    
+    width: 95%;
+    height: 487px;
+    left: 62px;
+    top:1266px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: 3px solid #25d366; 
+    
+    
+}
+
+
+/* ========================= section4 =========================== */
+
+.bottomBanner {
+    height: 530px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;   
+    border: 3px solid #25d366; 
+    
+
+}
+
+.bottomTxt {
+    color: #003061;
+    width: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-family: Russo One;
+    border: 3px solid #25d366;
+    
+}
+
+
+.bottomImg {
+    width: 571px;
+    height: 381px;
+       
+    
+    border: 3px solid #25d366;
+}
+
+
+
 /* ========================= footer =========================== */
 
 .rodape {
