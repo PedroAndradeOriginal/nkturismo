@@ -193,21 +193,59 @@ header nav {
     height: 608px;
     background-color: #003061;
     display: flex;
+    align-items: center;
     justify-content: center; 
+    margin-top: 92px;    
+    /* border: 3px solid red; */
+    
+}
+.carousel-item {
+  
+    width: 99%;
+    height: 550px;
+    color: white;
+    /* border: 3px solid black;  */
+
+}
+.containercar {
+    width: 98%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 10rem;
+    /* border: 3px solid purple; */
+}
+.imagemcar {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+    /* border: 3px solid black; */
+    
+}
+.bloco {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Russo One;
+    font-size: 75px;
+    /* border: 3px solid #25d366; */
+}
+
+.btn {
+    font-family: Oswald;
+    border-radius: 50px;
+    box-shadow: 5px 10px 10px #000;
+    font-size: 36px;
+    color: #003061;  
     
 }
 
-.button {
-    position:absolute;
-    right: 50px;
-    top: 400px;
-    
-}
 
-.btn-warning {
-    border-radius: 40px;
-    
-}
 
 
 
