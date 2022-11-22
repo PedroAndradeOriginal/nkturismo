@@ -51,13 +51,13 @@
     height: 60px;
     bottom: 20px;
     right: 20px;
-    background-color: #25d366;
+    background-color: #1a9748;
     color: #fff;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 5px 5px 2px #888;
+    box-shadow: 5px 5px 2px rgb(58, 54, 54);
     z-index: 1000;
     animation: pulse 0.9s infinite;
     animation-direction: alternate;
@@ -71,7 +71,7 @@
 }
 
 .whatsapp-link img {
-    height: 40px;
+    height: 45px;
 }
 
 /* ========================= Cabeçalho =========================== */
@@ -186,7 +186,7 @@ header nav {
     transform: rotate(-45deg);
 }
 
-/* ========================= foteer =========================== */
+/* ========================= footer =========================== */
 
 .rodape {
     width: 100%;

@@ -6,7 +6,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/home.css">
   <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,17 +17,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Russo+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </head>
 
 <body>
 
-   <!--====================== Botão do whatsapp =========================-->
+  <!--====================== Botão do whatsapp =========================-->
 
-   <a class="whatsapp-link" href="https://wa.me/5521983578774" target="_blank">
+  <a class="whatsapp-link" href="https://wa.me/5521983578774" target="_blank">
     <img src="assets/icon-whats.svg" alt="" srcset="">
-</a>
+  </a>
 
   <!-- ===================== Cabeçalho ============================= -->
 
@@ -34,10 +36,10 @@
     </section>
     <nav>
       <ul id="nav-list" class="nav-list">
-        <li class="item-list"><a class="nav-link" href="#">Home</a></li>
-        <li class="item-list"><a class="nav-link" href="#">Quem Somos</a></li>
-        <li class="item-list"><a class="nav-link" href="#">Serviços</a></li>
-        <li class="item-list"><a class="nav-link" href="#">Contato</a></li>
+        <li class="item-list"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="item-list"><a class="nav-link" href="pages/quemsomos.html">Quem Somos</a></li>
+        <li class="item-list"><a class="nav-link" href="pages/servicos.html">Serviços</a></li>
+        <li class="item-list"><a class="nav-link" href="pages/contato.html">Contato</a></li>
       </ul>
       <div class="menu-icon">
         <div id="line-one" class="line-1"></div>
@@ -46,6 +48,121 @@
       </div>
     </nav>
   </header>
+
+  <!-- ===================== Carrossel e Banners ============================= -->
+  
+  <main>
+    <div id="carouselnk" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <div class="containercar">
+            <div class="imagemcar">
+              <img class="d-block w-100" src="assets/van 01 3.png" alt="Slide um">
+            </div>
+            <div class="bloco">
+              <p>Conforto e <br>Segurança</p>
+              <button type="button" class="btn btn-warning" href="#" role="button">
+                Conheça mais
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <div class="containercar">
+            <div class="imagemcar">
+              <img src="assets/delivery-van-drives-city-logistics-moving-.jpg" alt="Slide dois">
+            </div>
+            <div class="bloco">
+              <p>Viaje conosco</p>
+              <button type="button" class="btn btn-warning" href="#" role="button">
+                Conheça mais
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <div class="containercar">
+            <div class="imagemcar">
+              <img class="d-block w-100" src="assets/van 01 3.png" alt="Slide três">
+            </div>
+            <div class="bloco">
+              <p>Seja muito Bem Vindo</p>
+              <button type="button" class="btn btn-warning" href="#" role="button">
+                Conheça mais
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselnk" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselnk" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+    <!-- ====================== Section 2 =================================================== -->
+
+    <section>
+      <div class="middleBanner">
+        <div class="middleTxt">
+          <h1>Viagens para empresas</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dignissimos eos cupiditate aliquid
+            ullam, cumque necessitatibus consequatur ex, deleniti incidunt molestias id qui veritatis obcaecati
+            voluptatum error? Aperiam, facere natus!</p>
+        </div>
+        <div class="middleImg">
+          <img src="assets/frotaVans.png" alt="Frota de Vans">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Section 3 =================================================== -->
+
+    <section>
+      <div class="sec3">
+        <div class="in-sec3">
+          <div class="logos">
+            <div class="box1">
+              <img src="assets/image 3.svg" alt="logoEloM7">
+              <img src="assets/image 4.svg" alt="LogoCadastur">
+              <img src="assets/image 5.svg" alt="LogoDetro">
+            </div>
+            <div class="box2">
+              <img src="assets/image 6.svg" alt="LogoSeloVerde">
+              <img src="assets/image 7.svg" alt="LogoANTT">              
+            </div>
+          </div>
+          <div class="bloco2">
+            <p>Preocupados com <br>
+              a sua segurança, <br>
+              onde quer que <br>
+              voçê vá</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Section 4 =================================================== -->
+
+    <section>
+      <div class="bottomBanner">
+        <div class="bottomImg">
+          <img src="assets/image 8.png" alt="Frota de Vans">
+        </div>
+        <div class="bottomTxt">
+          <h1>Viagens e Turismo</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dignissimos eos cupiditate aliquid
+            ullam, cumque necessitatibus consequatur ex, deleniti incidunt molestias id qui veritatis obcaecati
+            voluptatum error? Aperiam, facere natus!</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <!-- ===================== Footer para todas as páginas ============================= -->
 
@@ -59,7 +176,7 @@
               <ul id="lista-footer">
                 <li><a href="quemsomos.html">Quem Somos</a></li>
                 <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="pages/contato.html">Contato</a></li>
                 <li><a href="termos e privacidade.html">Termos e Privacidade</a></li>
               </ul>
             </div>
