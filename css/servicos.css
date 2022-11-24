@@ -1,0 +1,137 @@
+/* section 1 ========================================*/
+.sec1 {
+    width: 100%;
+    height: 608px;
+    margin-top: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border: 3px solid red; */
+}
+
+.sec1txt {
+    height: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: Russo One;
+    font: 75pt;
+    color: #003061;
+
+    /* border: 3px solid red; */
+}
+
+.sec1Img {
+    display: flex;
+
+    
+    /* border: 3px solid red; */
+}
+.sec1img {
+    width: 35rem;
+    height: 100%;
+    
+}
+
+/* section2 ====================================================*/
+
+.sec2 {
+    width: 100%;
+    height: 507px;
+    color: white;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+
+    /* border: 3px solid red; */
+}
+
+.sec2txt {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 24pt;
+}
+.sec2txt h2 {
+    margin-top: 2rem;
+    width:65%;
+    font-family: russo One;
+}
+
+/* section3 ================================================*/
+
+.section3 {
+    width: 100%;
+    height: 783px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 3px solid green; */
+}
+
+
+.sec3 {
+    width: 98%;
+    height: 96%;
+    background-color: #003061;
+    color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+
+    /* border: 3px solid red; */
+
+}
+
+.bloco1sec3 {
+    width: 33%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+
+}
+
+.bloco1sec3B {
+    font-family: oswald;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+.bloco2sec3 {
+    width: 33%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+
+}
+
+.bloco2sec3B {
+    font-family: Oswald;
+    font-size: 20px; 
+    text-align: center;   
+}
+
+/* section 4 ========================================= */
+
+.sec4 {
+    width: 100%;
+    height: ;
+    border: 3px solid red;
+
+}
