@@ -1,0 +1,71 @@
+.mainBannerImgContainerSecondPage{
+    margin-top: 91px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.mainBannerImgSecondPage {
+    height: 100% ;
+    width: 100%;
+}
+
+.middleTxtSecondPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middleTxtContainerSecondPage {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #1E1E1E;
+    border-radius: 3%;
+}
+
+.middleTxtTitleSecondPage {
+    font-family: 'Russo One';
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 25%;
+    color: #FFFFFF;
+    width: fit-content;
+    margin-left: 6%;
+}
+
+.middleTxtParagraphSecondPage {
+    font-family: 'Oswald';
+    font-size: 32px;
+    font-weight: 300;
+    text-align: right;
+    color: #FFFFFF;
+    width: fit-content;
+    margin-right: 6%;
+}
+
+.middleBannerImgContainerSecondPage{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.middleBannerImgSecondPage {
+    height: 100% ;
+    width: 100%;
+}
+
+
+/* ========================= mobile =========================== */
+
+@media(max-width:994px) {
+
+}
