@@ -81,6 +81,42 @@
     font-weight: 300;
 }
 
+.bottomTxtSecondPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomTxtContainerSecondPage {
+    width: 100%;
+    height: 100%;
+    background-color: #003061;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomTittleSecondPage {
+    font-family: 'Russo One';
+    font-size: 48px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 1%;
+}
+
+.bottomParagraphSecondPage {
+    font-family: 'Russo One';
+    font-size: 26px;
+    color: #FFFFFF;
+    width: 93%;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1%;
+}
+
+
 
 /* ========================= mobile =========================== */
 
