@@ -52,15 +52,33 @@
     margin-right: 6%;
 }
 
-.middleBannerImgContainerSecondPage{
+.middleBannerContainerSecondPage{
+    display: block;
     height: 100%;
     width: 100%;
-    display: block;
 }
 
 .middleBannerImgSecondPage {
+    display: block;
     height: 100% ;
     width: 100%;
+}
+
+.middleBannerTxtSecondPage {
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 7%;
+    line-height: 29.64px;
+}
+
+.middleBannerTitleSecondPage {
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 300;
 }
 
 
