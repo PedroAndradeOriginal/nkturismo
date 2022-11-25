@@ -10,26 +10,24 @@
     /* border: 3px solid red; */
 }
 
-.sec1txt {
-    height: 40%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    font-family: Russo One;
-    font: 75pt;
+.sec1 h1 {
+    font-family: 'Russo One' , regular ;
+    font-size: 75pt;
     color: #003061;
+    text-align: left;
+    position: relative;
+    margin-left: 4rem;
 
-    /* border: 3px solid red; */
-}
+} 
+
+
 
 .sec1Img {
-    display: flex;
-
-    
-    /* border: 3px solid red; */
+    display: flex;    
+    /* border: 3px solid red;  */
 }
 .sec1img {
-    width: 35rem;
+    width: 32rem;
     height: 100%;
     
 }
