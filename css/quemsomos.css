@@ -1,13 +1,33 @@
 .section-1-QS-container{
     margin-top: 91px;
+    display: block;
     height: 100%;
     width: 100%;
-    display: block;
+    border: solid blue;
+}
+
+.section-1-QS-textBox{
+    display: flex;
+    
+    border: solid yellow;
+}
+
+.section-1-QS-text{
+    font-family: 'Russo One', sans-serif;
+    color: #003061;
+    position: absolute;
+    font-size: 48px;
+    background-color: #F9F9F9;
+    border-radius: 30px;
+    padding: 7px;
+    border: solid green;
 }
 
 .section-1-QS-img {
+    display: block;
     height: 100% ;
     width: 100%;
+    border: solid red;
 }
 
 .section-2-QS {
@@ -43,7 +63,7 @@
 }
 
 .section-2-QS-text {
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
     font-size: 32px;
     font-weight: 300;
     text-align: right;
@@ -58,13 +78,7 @@
     width: 100%;
 }
 
-.section-3-QS-img {
-    display: block;
-    height: 100% ;
-    width: 100%;
-}
-
-.section-3-QS-textBox-text {
+.section-3-QS-text {
     font-family: 'Oswald', sans-serif;;
     font-size: 20px;
     font-weight: 300;
@@ -73,6 +87,12 @@
     margin-top: 5%;
     margin-left: 7%;
     line-height: 29.64px;
+}
+
+.section-3-QS-img {
+    display: block;
+    height: 100% ;
+    width: 100%;
 }
 
 .section-4-QS {
@@ -91,13 +111,14 @@
     flex-direction: column;
     align-items: center;
 }
+
 .section-4-QS-textBox {
     text-align: center;
     width: 40%;
 }
 
 .section-4-QS-textBox-title {
-    font-family: 'Russo One', sans-serif;;
+    font-family: 'Russo One', sans-serif;
     font-size: 48px;
     font-weight: 400;
     color: #FFFFFF;
