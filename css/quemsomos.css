@@ -1,16 +1,16 @@
-.mainBannerImgContainerSecondPage{
+.section-1-QS-container{
     margin-top: 91px;
     height: 100%;
     width: 100%;
     display: block;
 }
 
-.mainBannerImgSecondPage {
+.section-1-QS-img {
     height: 100% ;
     width: 100%;
 }
 
-.middleTxtSecondPage {
+.section-2-QS {
     height: 100%;
     width: 100%;
     display: flex;
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.middleTxtContainerSecondPage {
+.section-2-QS-container {
     height: 100%;
     width: 80%;
     display: flex;
@@ -31,7 +31,7 @@
     border-radius: 20px;
 }
 
-.middleTxtTitleSecondPage {
+.section-2-QS-title {
     font-family: 'Russo One', sans-serif;;
     font-size: 48px;
     font-weight: 400;
@@ -42,7 +42,7 @@
     margin-left: 6%;
 }
 
-.middleTxtParagraphSecondPage {
+.section-2-QS-text {
     font-family: 'Oswald', sans-serif;;
     font-size: 32px;
     font-weight: 300;
@@ -52,19 +52,19 @@
     margin-right: 6%;
 }
 
-.middleBannerContainerSecondPage{
+.section-3-QS-container{
     display: block;
     height: 100%;
     width: 100%;
 }
 
-.middleBannerImgSecondPage {
+.section-3-QS-img {
     display: block;
     height: 100% ;
     width: 100%;
 }
 
-.middleBannerTxtSecondPage {
+.section-3-QS-textBox-text {
     font-family: 'Oswald', sans-serif;;
     font-size: 20px;
     font-weight: 300;
@@ -75,13 +75,7 @@
     line-height: 29.64px;
 }
 
-.middleBannerTitleSecondPage {
-    font-family: 'Oswald', sans-serif;;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.bottomTxtSecondPage {
+.section-4-QS {
     height: 100%;
     width: 100%;
     display: flex;
@@ -89,7 +83,7 @@
     justify-content: center;
 }
 
-.bottomTxtContainerSecondPage {
+.section-4-QS-container {
     width: 100%;
     height: 100%;
     background-color: #003061;
@@ -97,8 +91,12 @@
     flex-direction: column;
     align-items: center;
 }
+.section-4-QS-textBox {
+    text-align: center;
+    width: 40%;
+}
 
-.bottomTittleSecondPage {
+.section-4-QS-textBox-title {
     font-family: 'Russo One', sans-serif;;
     font-size: 48px;
     font-weight: 400;
@@ -106,24 +104,22 @@
     margin-top: 1%;
 }
 
-.bottomParagraphSecondPage {
+.section-4-QS-textBox-text {
     font-family: 'Oswald', sans-serif;
     font-size: 28px;
     font-weight: 300;
     color: #FFFFFF;
-    width: 66%;
     text-align: center;
-    margin-top: 1%;
 }
 
-.boxRow {
+.section-4-QS-boxRow {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 3%;
 }
 
-.box {
+.section-4-QS-boxRow-box {
     height: 433px;
     width: 410px;
     background-color: #FFFFFF;
@@ -136,14 +132,14 @@
     margin: 1%;
 }
 
-.boxTxtTittle {
+.section-4-QS-boxRow-box-tittle {
     font-family: 'Oswald', sans-serif;;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
 }
 
-.boxTxt {
+.section-4-QS-boxRow-box-text {
     font-family: 'Oswald', sans-serif;;
     text-align: center;
     font-size: 24px;
