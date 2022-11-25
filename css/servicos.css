@@ -40,11 +40,15 @@
     color: white;
     background-color: #1e1e1e;
     display: flex;
-    justify-content: center;
-    padding: 100px;
-    
+    align-items: center;
+    justify-content: center;  
+    /* border: 3px solid red;  */
+}
 
-    /* border: 3px solid red; */
+.sec2txt h2 {
+    
+    width:65%;
+    font-family: Russo One;
 }
 
 .sec2txt {
@@ -53,14 +57,10 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    gap: 50px;
     text-align: center;
-    font-family: Oswald;
+    font-family: 'Oswald', light;
     font-size: 24pt;
-}
-.sec2txt h2 {
-    margin-top: 2rem;
-    width:65%;
-    font-family: russo One;
 }
 
 /* section3 ================================================*/
