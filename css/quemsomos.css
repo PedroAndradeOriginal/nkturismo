@@ -1,0 +1,252 @@
+/* ================== Section 1 ================= */
+
+.section-1-QS-container{
+    margin-top: 92px;
+    height: 608px;
+    width: 100%;
+    background-image: url(/assets/quem_somos/firstBanner.svg);
+    background-size: cover;
+}
+
+.section-1-QS-textBox{
+    display: flex;
+}
+
+.section-1-QS-text{
+    font-family: 'Russo One', sans-serif;
+    color: #003061;
+    position: absolute;
+    top: 30rem;
+    right: 0px;
+    font-size: 3rem;
+    background-color: #F9F9F9;
+    border-radius: 30px 0px 0px 30px;
+    padding: 15px;
+}
+
+/* ================== Section 2 ================= */
+
+.section-2-QS {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-2-QS-container {
+    height: 487px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 35px;
+    padding: 35px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+}
+
+.section-2-QS-title {
+    width: 30%;
+    font-family: 'Russo One', sans-serif;;
+    font-size: 3rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.section-2-QS-text {
+    width: 45%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/* ================== Section 3 ================= */
+
+.section-3-QS-container{
+    height: 408px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url(/assets/quem_somos/middleBanner.png);
+    background-size: cover;
+}
+
+.section-3-QS-text {
+    margin-left: 30px;
+    width: 55%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.section-3-QS-img {
+    display: none;
+    height: 100% ;
+    width: 100%;
+}
+
+/* ================== Section 4 ================= */
+
+.section-4-QS {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4-QS-container {
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #003061;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4-QS-textBox {
+    text-align: center;
+    width: 70%;
+}
+
+.section-4-QS-textBox-title {
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 1%;
+}
+
+.section-4-QS-textBox-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.section-4-QS-boxRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.section-4-QS-boxRow-box {
+    height: 100%;
+    width: 33%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    margin: 1%;
+}
+
+.section-4-QS-boxRow-box-tittle {
+    font-family: 'Oswald', sans-serif;;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-4-QS-boxRow-box-text {
+    font-family: 'Oswald', sans-serif;;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 200;
+    width: 100%;
+}
+
+/* ========================= mobile =========================== */
+
+@media(max-width:994px) {
+
+    .section-1-QS-container{
+        height: 508px;
+    }
+
+    .section-1-QS-text{
+        top: 40rem;
+        left: 0px;
+        right: inherit;
+        font-size: 1.8rem;
+        border-radius: 0px 30px 30px 0px;
+    }
+
+    .section-1-QS-container{
+        background-position: center;
+    }
+
+    .section-2-QS-container {
+        flex-direction: column;
+    }
+
+    .section-2-QS-title {
+        width: 90%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .section-2-QS-text {
+        width: 90%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .section-3-QS-container{
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    .section-3-QS-text {
+        margin: 0;
+        padding: 25px 25px 25px 25px;
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .section-3-QS-img {
+        display: flex;
+        border-radius: 100px;
+        height: 150px ;
+        width: 150px;
+        margin-bottom: 30px;
+        border: 0.5px solid #dddada;
+    }
+
+    .section-4-QS-boxRow-box {
+        width: 80%;
+    }
+
+}
+
+@media(max-width:1250px) {
+
+    .section-4-QS {
+        height: 100%;
+    }
+
+    .section-4-QS-boxRow {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .section-4-QS-textBox-title {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    
+    .section-4-QS-textBox-text {
+        font-size: 1.4rem;
+    }
+
+}
