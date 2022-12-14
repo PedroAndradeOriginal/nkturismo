@@ -8,7 +8,7 @@ body {
     margin-top: 92px;
     width: 100%;
     height: 608px;
-    background-image: url(/assets/fundo-contatos.svg);
+    background-image: url(../assets/imagens/fundo-contatos.svg);
     background-size: cover;
 }
 
