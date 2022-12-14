@@ -15,9 +15,6 @@
   <link rel="shortcut icon" href="assets/Home/" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Russo+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="/text/css"
     href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
@@ -53,64 +50,13 @@
     </nav>
   </header>
 
-  <!-- ===================== Carrossel e Banners ============================= -->
+  <!-- ===================== Video Player e Banners ============================= -->
+  
   <main>
-    <div defer style="padding:56.25% 0 0 0;position:relative;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ttnrFOsU0Uo" title="YouTube video player" frameborder="0" allow="autoplay; fullscreen; picture-in-picture accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+    <div class="videoPlayerContainer">
+      <iframe class="ytVideoPlayer"  width="560" height="315" src="https://www.youtube.com/embed/fqxc2n-m-Wo" title="YouTube video player" frameborder="0" allow="autoplay; fullscreen; picture-in-picture accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <!-- <div id="carouselnk" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item" data-interval="10000">
-          <div class="containercar">
-            <div class="imagemcar">
-              <img class="d-block w-100" src="assets/home/van 01 3.png" alt="Slide um">
-            </div>
-            <div class="bloco">
-              <p>Conforto e Segurança</p>
-              <a href="/pages/quemsomos.html"><button type="submit" class="btn btn-warning" role="button">
-                  <p>Conheça mais</p>
-                </button></a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item" data-interval="10000">
-          <div class="containercar">
-            <div class="imagemcar">
-              <img class="d-block w-100" src="assets/home/van 01 3.png" alt="Slide dois">
-            </div>
-            <div class="bloco">
-              <p>Viaje conosco</p>
-              <a href="/pages/servicos.html"><button type="submit" class="btn btn-warning" role="button">
-                  <p>Serviços</p>
-                </button></a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item active" data-interval="10000">
-          <div class="containercar">
-            <div class="imagemcar">
-              <img class="d-block w-100" src="assets/home/van 01 3.png" alt="Slide três">
-            </div>
-            <div class="bloco">
-              <p>Seja muito Bem Vindo</p>
-              <a href="/pages/contato.html"><button type="submit" class="btn btn-warning" role="button">
-                  <p>Contate-nos</p>
-                </button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselnk" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselnk" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
-    </div> -->
-    
     <section>
       <div class="middleBanner">
         <div class="middleTxt">
@@ -215,20 +161,20 @@
   <!-- ===================== Javascript ============================= -->
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-  <script src="/js/cookie.js"></script>
-  <script src="/js/menu.js"></script>
-  <script src="js/player.js"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="/js/configScroll.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
   integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
   crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
   integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
   crossorigin="anonymous"></script>
-</body>
+  <script src="js/configScroll.js"></script>
+  <script src="js/cookie.js"></script>
+  <script src="js/menu.js"></script>
+  <script defer src="js/player.js"></script>
 
+</body>
 </html>
