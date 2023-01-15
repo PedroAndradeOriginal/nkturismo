@@ -60,7 +60,7 @@
 } */
 
 .videoNK {
-    height: 400px;
+    height: 420px;
     /* position:relative; */
     margin-top: 92px;
     margin-bottom: 5px;
@@ -73,6 +73,7 @@
     /* margin-top: 92px; */
     margin-bottom: 3px;
     /* position:absolute; */
+    opacity: 0.6;
     top: 0;
     left: 0; 
     object-fit: cover;
