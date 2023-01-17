@@ -30,6 +30,7 @@
 .sec1Img img {
     width: 90%;
     height: 90%;
+    border-radius: 50px 0px 0px 50px;
 }
 
 /* ============================== section2 =======================*/
@@ -96,6 +97,7 @@
 .blocosec3 img {
     width: 100%;
     height: auto;
+    border-radius: 50px;
 }
 
 .blocosec3 h2 {
